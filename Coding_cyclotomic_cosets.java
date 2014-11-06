@@ -20,6 +20,7 @@ public class Coding_cyclotomic_cosets {
         double power=0;
         int r=1;
         boolean rfound=false;
+        //in the following loop we are calculating r for which 1 = 2^r mod n
         while(!rfound){
             if(Math.pow(2,r)%n==1){
                 rfound=true;
